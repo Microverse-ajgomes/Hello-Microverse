@@ -1,0 +1,28 @@
+html
+{
+
+}
+
+title
+{
+    color: blue ;
+    background-color: #0000FF ;
+}
+
+body
+{
+    color: yellow ;
+    background-color: #00FFFF ;
+}
+
+h1
+{
+    color: white ;
+    /* background-color: #0000FF ; */ 
+}
+
+p
+{
+    color: white ;
+    /* background-color: #0000FF ; */
+}
