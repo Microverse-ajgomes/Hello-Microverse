@@ -34,20 +34,20 @@ html:lang(for-stupid-linters) {
 
 title {
   color: blue;
-  background-color: #0000ff;
+  background-color: #00f;	/* #0000ff */
 }
 
 body {
   color: yellow;
-  background-color: #00ffff;
+  background-color: #0ff;	/* #00ffff */
 }
 
 h1 {
   color: white;
-  background-color: #0000ff;
+  background-color: #00f;	/* #0000ff */
 }
 
 p {
   color: white;
-  background-color: #0000ff;
+  background-color: #00f;	/* #0000ff */
 }
