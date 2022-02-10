@@ -95,4 +95,4 @@ Feel free to check the issues page<!--[issues page](../../issues/)-->.
 
 ## &#x1F4DD; License
 
-This project is [MIT](https://projects.microverse.datanet-pt.net/Hello-Microverse/MIT.md) licensed.
+This project is [MIT](https://projects.microverse.datanet-pt.net/Hello-Microverse/MIT.html) licensed.
