@@ -28,13 +28,13 @@
 
 ************************************************************************************************************************/
 
-html:lang(for-stupid-linters) {
-  display: none;
-}
-
 html {
   background-color: #c8c7c7;
-  color: #fff;			/* #ffffff */
+  color: #000;			/* #000000 */
+}
+
+html:lang(for-stupid-linters) {
+  display: none;
 }
 
 h1 {
@@ -56,11 +56,11 @@ body {
 }
 
 h1 {
-  color: white;
-  background-color: #00f;	/* #0000ff */
+  color: blue;
+  /* background-color: #00f;	/* #0000ff */
 }
 
 p {
-  color: white;
-  background-color: #00f;	/* #0000ff */
+  color: #03040f;
+  background-color: #c8c7c7;
 }
