@@ -37,14 +37,6 @@ html:lang(for-stupid-linters) {
   display: none;
 }
 
-h1 {
-  color: blue;
-}
-
-h2 {
-  color: #50f;			/* #5500ff */
-}
-
 title {
   color: blue;
   background-color: #00f;	/* #0000ff */
@@ -57,10 +49,13 @@ body {
 
 h1 {
   color: blue;
-  /* background-color: #00f;	/* #0000ff */
+  background-color: #00f;	/* #0000ff */
+}
+
+h2 {
+  color: #50f;			/* #5500ff */
 }
 
 p {
   color: #03040f;
-  background-color: #c8c7c7;
 }
