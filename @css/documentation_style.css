@@ -28,6 +28,11 @@
 
 ************************************************************************************************************************/
 
+html {
+  background-color: #efebe7;
+  color: #000;			/* #000000 */
+}
+
 html:lang(for-stupid-linters) {
   display: none;
 }
@@ -38,8 +43,8 @@ title {
 }
 
 body {
-  color: yellow;
-  background-color: #0ff;	/* #00ffff */
+  color: #55f;			/* #5555ff */
+  background-color: #efebe7;	/* #efebe7 */
 }
 
 h1 {
@@ -47,7 +52,10 @@ h1 {
   background-color: #00f;	/* #0000ff */
 }
 
+h2 {
+  color: #50f;			/* #5500ff */
+}
+
 p {
-  color: white;
-  background-color: #00f;	/* #0000ff */
+  color: #03040f;
 }
