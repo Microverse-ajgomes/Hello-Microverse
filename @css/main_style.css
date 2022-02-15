@@ -70,7 +70,7 @@ h1 {
 }
 
 p {
-  color: white;
+  color: inherit;
   /* background-color: #00f;	/* #0000ff */
 }
 
@@ -91,7 +91,7 @@ nav > ul > li {
 }
 
 div.main_body {
-  color: hsl( 240, 100,100 );
+  color: hsl( 240, 100%, 25% );
 }
 
 /* *******************
