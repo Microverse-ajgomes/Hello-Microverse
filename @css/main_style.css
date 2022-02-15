@@ -29,11 +29,29 @@
 ************************************************************************************************************************/
 
 html {
+  color: white;
   background-color: blue;
 }
 
 html:lang(for-stupid-linters) {
   display: none;
+}
+
+/* HTML page global LINK colors */
+html:link {
+  color: gray;
+}
+
+html:hover {
+  color: green;
+}
+
+html:active {
+  color: red;
+}
+
+html:visited {
+  color: magenta;
 }
 
 title {
@@ -61,25 +79,129 @@ p {
  * *******************/
 
 .header {
-  display: flex;
   background-color: blueviolet;
   color: white;
 }
 
 .nav-menu {
-  display: flex;
   background-color: darkslategray;
   color: white;
 }
 
 .main_body {
-  display: flex;
   background-color: white;
   color: darkblue;
 }
 
 .footer {
-  display: flex;
   background-color: black;
-  color: lightgray;
+  color: #d3d3d3;		/* lightgray */
+}
+
+.list-no-bullets {
+  list-style-type: none;
+}
+
+/* HEADER section link attributes */
+.header-link-style {
+  color: white;
+}
+
+.header-link-style:link {
+  color: gray;
+}
+
+.header-link-style:hover {
+  color: green;
+}
+
+.header-link-style:active {
+  color: red;
+}
+
+.header-link-style:visited {
+  color: magenta;
+}
+
+/* MENU section link attributes */
+.nav-link-style {
+  color: white;
+}
+
+.nav-link-style:link {
+  color: gray;
+}
+
+.nav-link-style:hover {
+  color: green;
+}
+
+.nav-link-style:active {
+  color: red;
+}
+
+.nav-link-style:visited {
+  color: magenta;
+}
+
+/* BODY section link attributes */
+.body-link-style {
+  color: white;
+}
+
+.body-link-style:link {
+  color: gray;
+}
+
+.body-link-style:hover {
+  color: green;
+}
+
+.body-link-style:active {
+  color: red;
+}
+
+.body-link.style:visited {
+  color: magenta;
+}
+
+/* FOOTER section link attributes */
+.footer-link-style {
+  color: white;
+}
+
+.footer-link-style:link {
+  color: gray;
+}
+
+.footer-link-style:hover {
+  color: green;
+}
+
+.footer-link-style:active {
+  color: red;
+}
+
+.footer-link-style:visited {
+  color: magenta;
+}
+
+/* ************************************
+ * CSS CLASS selectors for DISPLAY mode
+ * ************************************/
+
+.flex-box {
+  display: flex;
+}
+
+.block-box {
+  display: block;
+}
+
+.inline-block-box {
+  display: inline-block;
+}
+
+.invisible-box {
+  display: none;
 }
