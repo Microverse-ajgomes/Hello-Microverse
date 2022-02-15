@@ -56,9 +56,9 @@ p {
   background-color: #00f;	/* #0000ff */
 }
 
-/* 
+/* *******************
  * CSS CLASS selectors
- */
+ * *******************/
 
 .header {
   display: flex;
@@ -82,4 +82,4 @@ p {
   display: flex;
   background-color: black;
   color: lightgray;
-}  
+}
