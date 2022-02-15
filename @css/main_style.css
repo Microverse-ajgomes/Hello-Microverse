@@ -28,8 +28,30 @@
 
 ************************************************************************************************************************/
 
+html {
+  color: white;
+  background-color: blue;
+}
+
 html:lang(for-stupid-linters) {
   display: none;
+}
+
+/* HTML page global LINK colors */
+html:link {
+  color: gray;
+}
+
+html:hover {
+  color: green;
+}
+
+html:active {
+  color: red;
+}
+
+html:visited {
+  color: magenta;
 }
 
 title {
@@ -38,16 +60,188 @@ title {
 }
 
 body {
-  color: yellow;
-  background-color: #0ff;	/* #00ffff */
+  color: white;
+  background-color: #80ffff;	/* #00ffff */
 }
 
 h1 {
   color: white;
-  background-color: #00f;	/* #0000ff */
+
+  /* background-color: #00f;	#0000ff */
 }
 
 p {
+  color: inherit;
+
+  /* background-color: #00f;	#0000ff */
+}
+
+/* **********************
+ * Compound HTML elements
+ * **********************/
+
+header > h1 {
+  margin-left: 40px;
+}
+
+nav > ul > li {
+  display: inline-block;
+  background-color: silver;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+div.main_body {
+  color: hsl(240, 100%, 25%);
+  background-color: inherit;
+}
+
+div.main_body > p {
+  font-size: xxx-large;
+  font-family: monospace;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* *******************
+ * CSS CLASS selectors
+ * *******************/
+
+.header {
+  background-color: darkgray;
   color: white;
-  background-color: #00f;	/* #0000ff */
+}
+
+.nav-menu {
+  background-color: darkslategray;
+  color: white;
+}
+
+.main_body {
+  background-color: white;
+  color: darkblue;
+}
+
+.footer {
+  background-color: black;
+  color: #d3d3d3;		/* lightgray */
+}
+
+.list-no-bullets {
+  list-style-type: none;
+}
+
+.body-text {
+  color: darkgray;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* HEADER section link attributes */
+.header-link-style {
+  color: white;
+}
+
+.header-link-style:link {
+  color: gray;
+}
+
+.header-link-style:hover {
+  color: green;
+}
+
+.header-link-style:active {
+  color: red;
+}
+
+.header-link-style:visited {
+  color: magenta;
+}
+
+/* MENU section link attributes */
+.nav-link-style {
+  color: white;
+}
+
+.nav-link-style:link {
+  color: gray;
+}
+
+.nav-link-style:hover {
+  color: green;
+}
+
+.nav-link-style:active {
+  color: red;
+}
+
+.nav-link-style:visited {
+  color: magenta;
+}
+
+/* BODY section link attributes */
+.body-link-style {
+  color: white;
+}
+
+.body-link-style:link {
+  color: gray;
+}
+
+.body-link-style:hover {
+  color: green;
+}
+
+.body-link-style:active {
+  color: red;
+}
+
+.body-link.style:visited {
+  color: magenta;
+}
+
+/* FOOTER section link attributes */
+.footer-link-style {
+  color: white;
+}
+
+.footer-link-style:link {
+  color: gray;
+}
+
+.footer-link-style:hover {
+  color: green;
+}
+
+.footer-link-style:active {
+  color: red;
+}
+
+.footer-link-style:visited {
+  color: magenta;
+}
+
+/* ************************************
+ * CSS CLASS selectors for DISPLAY mode
+ * ************************************/
+
+.flex-box {
+  display: flex;
+}
+
+.block-box {
+  display: block;
+}
+
+.inline-block-box {
+  display: inline-block;
+}
+
+.invisible-box {
+  display: none;
 }
