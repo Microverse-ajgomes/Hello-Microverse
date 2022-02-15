@@ -80,7 +80,7 @@ p {
   color: lightgray;
 }
 
-list-no-bullets {
+.list-no-bullets {
   list-style-type: none;
 }
 
