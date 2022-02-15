@@ -28,6 +28,10 @@
 
 ************************************************************************************************************************/
 
+html {
+  background-color: blue;
+}
+
 html:lang(for-stupid-linters) {
   display: none;
 }
@@ -50,4 +54,32 @@ h1 {
 p {
   color: white;
   background-color: #00f;	/* #0000ff */
+}
+
+/* *******************
+ * CSS CLASS selectors
+ * *******************/
+
+.header {
+  display: flex;
+  background-color: blueviolet;
+  color: white;
+}
+
+.nav-menu {
+  display: flex;
+  background-color: darkslategray;
+  color: white;
+}
+
+.main_body {
+  display: flex;
+  background-color: white;
+  color: darkblue;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  color: lightgray;
 }
