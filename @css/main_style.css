@@ -66,12 +66,12 @@ body {
 
 h1 {
   color: white;
-  /* background-color: #00f;	/* #0000ff */
+  /* background-color: #00f;	#0000ff */
 }
 
 p {
   color: inherit;
-  /* background-color: #00f;	/* #0000ff */
+  /* background-color: #00f;	#0000ff */
 }
 
 /* **********************
@@ -95,7 +95,7 @@ nav > ul > li {
 }
 
 div.main_body {
-  color: hsl( 240, 100%, 25% );
+  color: hsl(240, 100%, 25%);
   background-color: inherit;
 }
 
