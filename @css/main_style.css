@@ -80,6 +80,10 @@ p {
   color: lightgray;
 }
 
+li-no-bullet {
+  style: none;
+}
+
 /* ************************************
  * CSS CLASS selectors for DISPLAY mode
  * ************************************/
