@@ -78,7 +78,7 @@ p {
  * Compound HTML elements
  * **********************/
 
-h1.header {
+header > h1 {
   margin-left: 40px;
 }
 
