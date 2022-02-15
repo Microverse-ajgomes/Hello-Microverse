@@ -95,6 +95,11 @@ div.main_body {
   background-color: inherit;
 }
 
+div.main_body > p {
+  font-size: xxx-large;
+  font-family: monospace;
+}
+
 /* *******************
  * CSS CLASS selectors
  * *******************/
