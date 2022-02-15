@@ -66,17 +66,23 @@ body {
 
 h1 {
   color: white;
-  background-color: #00f;	/* #0000ff */
+
+  /* background-color: #00f;	/* #0000ff */
 }
 
 p {
-  color: white;
-  background-color: #00f;	/* #0000ff */
+  color: inherit;
+
+  /* background-color: #00f;	/* #0000ff */
 }
 
 /* **********************
  * Compound HTML elements
  * **********************/
+
+header > h1 {
+  margin-left: 40px;
+}
 
 nav > ul > li {
   display: inline-block;
@@ -90,12 +96,24 @@ nav > ul > li {
   border-radius: 10px;
 }
 
+div.main_body {
+  color: hsl(240, 100%, 25%);
+  background-color: inherit;
+}
+
+div.main_body > p {
+  font-size: xxx-large;
+  font-family: monospace;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 /* *******************
  * CSS CLASS selectors
  * *******************/
 
 .header {
-  background-color: blueviolet;
+  background-color: darkgray;
   color: white;
 }
 
@@ -116,6 +134,12 @@ nav > ul > li {
 
 .list-no-bullets {
   list-style-type: none;
+}
+
+.body-text {
+  color: darkgray;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 /* HEADER section link attributes */
