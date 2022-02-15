@@ -90,6 +90,10 @@ nav > ul > li {
   border-radius: 10px;
 }
 
+div.main_body {
+  color: hsl( 240, 100,100 );
+}
+
 /* *******************
  * CSS CLASS selectors
  * *******************/
