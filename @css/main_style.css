@@ -60,8 +60,8 @@ title {
 }
 
 body {
-  color: yellow;
-  background-color: #0ff;	/* #00ffff */
+  color: white;
+  background-color: #80ffff;	/* #00ffff */
 }
 
 h1 {
@@ -72,6 +72,14 @@ h1 {
 p {
   color: white;
   background-color: #00f;	/* #0000ff */
+}
+
+/* **********************
+ * Compound HTML elements
+ * **********************/
+
+nav > ul > li {
+  display: inline-block;
 }
 
 /* *******************
