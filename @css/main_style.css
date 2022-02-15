@@ -61,25 +61,42 @@ p {
  * *******************/
 
 .header {
-  display: flex;
   background-color: blueviolet;
   color: white;
 }
 
 .nav-menu {
-  display: flex;
   background-color: darkslategray;
   color: white;
 }
 
 .main_body {
-  display: flex;
   background-color: white;
   color: darkblue;
 }
 
 .footer {
-  display: flex;
   background-color: black;
   color: lightgray;
 }
+
+/* ************************************
+ * CSS CLASS selectors for DISPLAY mode
+ * ************************************/
+
+.flex-box {
+  display: flex;
+}
+
+.block-box {
+  display: block;
+}
+
+.inline-block-box {
+  display: inline-block;
+}
+
+.invisible-box {
+  display: none;
+}
+
