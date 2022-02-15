@@ -118,6 +118,12 @@ nav > ul > li {
   list-style-type: none;
 }
 
+.body-text {
+  color: darkgray;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
 /* HEADER section link attributes */
 .header-link-style {
   color: white;
