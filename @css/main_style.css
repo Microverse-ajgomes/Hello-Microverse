@@ -38,7 +38,7 @@ html:lang(for-stupid-linters) {
 }
 
 /* HTML page global LINK colors */
-html:link{
+html:link {
   color: gray;
 }
 
@@ -107,7 +107,7 @@ p {
   color: white;
 }
 
-.header-link-style:link{
+.header-link-style:link {
   color: gray;
 }
 
@@ -149,7 +149,7 @@ p {
   color: white;
 }
 
-.body-link-style {
+.body-link-style:link {
   color: gray;
 }
 
@@ -205,4 +205,3 @@ p {
 .invisible-box {
   display: none;
 }
-
