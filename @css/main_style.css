@@ -80,8 +80,8 @@ p {
   color: lightgray;
 }
 
-li-no-bullet {
-  style: none;
+list-no-bullets {
+  list-style-type: none;
 }
 
 /* ************************************
