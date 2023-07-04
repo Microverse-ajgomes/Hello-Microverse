@@ -234,6 +234,14 @@ div.main_body > p {
   display: flex;
 }
 
+.flex-dir-column {
+  flex-direction: column;
+}
+
+.flex-dir-row {
+  flex-direction: row;
+}
+
 .block-box {
   display: block;
 }
