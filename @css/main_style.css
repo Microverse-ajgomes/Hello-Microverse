@@ -104,22 +104,25 @@ div.main_body {
 div.main_body > h1 {
   font-size: x-large;
   font-family: Verdana;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  color: #404040;
 }
 
 div.main_body > h2 {
   font-size: large;
   font-family: Verdana;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  color: #404040;
 }
 
 div.main_body > p {
   font-size: medium;
   font-family: monospace;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  color: #404040;
 }
 
 /* *******************
@@ -197,7 +200,7 @@ div.main_body > p {
 }
 
 .nav-link-style:visited {
-  color: magenta;
+  color: cyan;
 }
 
 /* BODY section link attributes */
@@ -239,7 +242,7 @@ div.main_body > p {
 }
 
 .footer-link-style:visited {
-  color: magenta;
+  color: cyan;
 }
 
 /* ************************************
