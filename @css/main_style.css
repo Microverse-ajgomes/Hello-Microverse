@@ -103,25 +103,25 @@ div.main_body {
 
 div.main_body > h1 {
   font-size: x-large;
-  font-family: Verdana;
-  margin-left: 0em;
-  margin-right: 0em;
+  font-family: sans-serif;
+  margin-left: 0;
+  margin-right: 0;
   color: #404040;
 }
 
 div.main_body > h2 {
   font-size: large;
-  font-family: Verdana;
-  margin-left: 0em;
-  margin-right: 0em;
+  font-family: sans-serif;
+  margin-left: 0;
+  margin-right: 0;
   color: #404040;
 }
 
 div.main_body > p {
   font-size: medium;
   font-family: monospace;
-  margin-left: 0em;
-  margin-right: 0em;
+  margin-left: 0;
+  margin-right: 0;
   color: #404040;
 }
 
