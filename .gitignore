@@ -1,5 +1,6 @@
 test.md
 node_modules
 package*
-*.old
-*.ignore
+**/*.old
+**/*.OLD/
+**/*.ignore
