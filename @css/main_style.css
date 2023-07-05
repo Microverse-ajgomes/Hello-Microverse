@@ -101,8 +101,22 @@ div.main_body {
   background-color: inherit;
 }
 
-div.main_body > p {
+div.main_body > h1 {
+  font-size: x-large;
+  font-family: Verdana;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+div.main_body > h2 {
   font-size: large;
+  font-family: Verdana;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+div.main_body > p {
+  font-size: medium;
   font-family: monospace;
   margin-left: 1em;
   margin-right: 1em;
