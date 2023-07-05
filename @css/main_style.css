@@ -102,7 +102,7 @@ div.main_body {
 }
 
 div.main_body > p {
-  font-size: xxx-large;
+  font-size: large;
   font-family: monospace;
   margin-left: 1em;
   margin-right: 1em;
@@ -140,6 +140,8 @@ div.main_body > p {
   color: darkgray;
   margin-top: 10px;
   margin-bottom: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 /* HEADER section link attributes */
