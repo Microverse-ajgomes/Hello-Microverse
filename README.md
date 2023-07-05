@@ -96,6 +96,7 @@ For more information on the importance of a professional README for your reposit
   </ul>
 </details>
 
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -123,7 +124,7 @@ For more information on the importance of a professional README for your reposit
 To get a local copy up and running, follow these steps.
 
 
-### Prerequisites <a name="prerequesites"></a>
+### Prerequisites <a name="prerequisites"></a>
 
 In order to run this project you need:
 
