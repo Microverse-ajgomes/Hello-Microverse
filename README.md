@@ -123,7 +123,7 @@ For more information on the importance of a professional README for your reposit
 To get a local copy up and running, follow these steps.
 
 
-### Prerequisites
+### Prerequisites <a name="prerequesites"></a>
 
 In order to run this project you need:
 
@@ -134,28 +134,28 @@ In order to run this project you need:
 - Setup a webserver local in your computer and get it running
 
 
-### Setup
+### Setup <a name="setup"></a>
 
 Clone this repository into a directory in your computer or into the DOCUMENT_ROOT of your local webserver.
 
 
-### Install
+### Install <a name="install"></a>
 
 Being a simple static site, this project does not require any specific install.
 
 
-### Usage
+### Usage <a name="usage"></a>
 
 To "run" this project, no command is needed.\
 Just point the browser in the computer to the **index.html** file or access the local webserver where the site was deployed into.
 
 
-### Run tests
+### Run tests <a name="run-tests"></a>
 
 Being a simple site, this project does not have any associated and/or required tests.
 
 
-### Deployment
+### Deployment <a name="deployment"></a>
 
 If you followed the previous steps, this project is already deployed and accessible.
 
